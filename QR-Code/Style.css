@@ -16,14 +16,16 @@ The designs were created to the following widths:
 - Family: [Outfit](https://fonts.google.com/specimen/Outfit)
 - Weights: 400, 700
 */
+/*for Desktop*/
+@media only screen and (max-width: 1440px){
 body{
  background-color: hsl(212, 45%, 89%);
 
 }
-div {
-    margin:auto;
-    display: grid;
-    place-items: center;
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
     display: block;
     width:265px;
     height:420px;
@@ -43,6 +45,7 @@ footer{
     text-align: center;
     font-size:x-small;
     margin-top: 2em;
+
 }
 
 h3{
@@ -58,6 +61,8 @@ h3{
     color: hsl(220, 15%, 55%);
     text-align: center;
 }
-/*for mobile*/
-@media only screen and (max-width:375px)
+}
 
+/*for mobile*/
+@media only screen and (max-width: 375px){
+}
