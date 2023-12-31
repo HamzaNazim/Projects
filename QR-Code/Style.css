@@ -20,7 +20,7 @@ body{
  background-color: hsl(212, 45%, 89%);
 
 }
-main {
+div {
     margin:auto;
     display: grid;
     place-items: center;
@@ -58,3 +58,6 @@ h3{
     color: hsl(220, 15%, 55%);
     text-align: center;
 }
+/*for mobile*/
+@media only screen and (max-width:375px)
+
