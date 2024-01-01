@@ -17,28 +17,28 @@ The designs were created to the following widths:
 - Weights: 400, 700
 */
 /*for Desktop*/
-@media only screen and (max-width: 1440px){
+
 body{
  background-color: hsl(212, 45%, 89%);
-
+display: flex;
+min-height: 0%;
 }
 .container {
     display: flex;
     justify-content: center;
     align-content: center;
     display: block;
-    width:265px;
-    height:420px;
-    padding: 1em;
-    border-radius: 2em;
+    max-width: fit-content;
+    padding: .5rem;
+    border-radius: 1rem;
     background-color: hsl(0, 0%, 100%);
     
 }
 
 img {
-    border-radius: 1em;
-    display: grid;
-    place-content: center;
+    display: block;
+    border-radius: .5rem;
+    max-width: 100%;
 }
 
 footer{
@@ -56,13 +56,8 @@ h3{
 }
 
 .txt{
-    font-size: 15px;
+    font-size: .9375rem;
     font-family: 'Outfit', sans-serif;
     color: hsl(220, 15%, 55%);
     text-align: center;
-}
-}
-
-/*for mobile*/
-@media only screen and (max-width: 375px){
 }
